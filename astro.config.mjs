@@ -1,4 +1,6 @@
-import { defineConfig } from 'astro/config';
+/** @format */
+
+import { defineConfig } from "astro/config";
 
 import tailwind from "@astrojs/tailwind";
 
@@ -8,8 +10,8 @@ export default defineConfig({
   vite: {
     resolve: {
       alias: {
-        '@': '/src'
-      }
-    }
-  }
+        "@": "/src",
+      },
+    },
+  },
 });
